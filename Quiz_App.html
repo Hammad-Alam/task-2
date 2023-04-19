@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./images/logo.jpg">
+    <title>Master Minds | Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="Quiz_App.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="col-left">
+            <p class="main-heading">Master Mind</p>
+            <p class="main-heading">Quiz App</p>
+        </div>
+
+        <div id="col-right">
+            <div id="start">Start Quiz</div>
+
+            <div id="guidelines">
+                <h2 id="rules-heading">Rules and Regulations</h2>
+                <p class="rules">1. You have to answer 10 questions.</p>
+                <p class="rules">2. Each question carry 1 mark.</p>
+                <p class="rules">3. Once you select your answer it can't be undone.</p>
+                <p class="rules">4. You will get points on the basis of your answers.</p>
+                <p class="rules">5. You can't exit from the quiz while you are playing.</p>
+
+                <button id="attempt">Attempt Quiz</button>
+            </div>
+
+            <div id="quiz">
+                <div id="header">
+                    <h6>Master Mind Quiz App</h6>
+                </div>
+
+                <h2 class="question">Question</h2>
+                <input type="radio" name="answer" id="ans1" class="answer">
+                <label for="ans1" id="option1">Option 1</label><br>
+
+
+                <input type="radio" name="answer" id="ans2" class="answer">
+                <label for="ans2" id="option2">Option 2</label><br>
+
+                <input type="radio" name="answer" id="ans3" class="answer">
+                <label for="ans3" id="option3">Option 3</label><br>
+
+                <input type="radio" name="answer" id="ans4" class="answer">
+                <label for="ans4" id="option4">Option 4</label><br>
+
+                <button id="next">Next</button>
+            </div>
+
+            <div id="res">
+            <div id="showScore" class="scoreArea"></div>
+            <button id="playagain">Play Again</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
